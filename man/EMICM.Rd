@@ -15,8 +15,6 @@ maxiter=1000)
   \item{EMstep}{ Boolean, indicating whether to take an EM step in the
     iteration. }
   \item{ICMstep}{ Boolean, indicating whether to take an ICM step. }
-  \item{checkbnds}{ Make sure that isotonization step does not wash out
-       essential maximal antichains by using self-consistent bounds.  }
   \item{keepiter}{  Boolean determining whether to keep the iteration
     states. }
   \item{tol}{ The maximal L1 distance between successive estimates
