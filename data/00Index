@@ -1,0 +1,8 @@
+cmv                      Data on times to shedding of cytomegalovirus and
+                         to colonization of mycobacterium avium complex.
+cosmesis                 The time taken until cosmetic deterioration of
+                         breast cosmesis.
+hiv                      Intervals for infection time and disease onset
+                         for 257 hemophiliac patients.
+pruitt                   A small artificial, bivariate right-censored
+                         data set.
