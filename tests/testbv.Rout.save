@@ -1,25 +1,23 @@
 
-R : Copyright 2001, The R Development Core Team
-Version 1.3.0 Under development (unstable) (2001-05-18)
+R : Copyright 2004, The R Foundation for Statistical Computing
+Version 1.9.0 Under development (unstable) (2004-03-04), ISBN 3-900051-00-3
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
-Type `license()' or `licence()' for distribution details.
+Type 'license()' or 'licence()' for distribution details.
 
 R is a collaborative project with many contributors.
-Type `contributors()' for more information.
+Type 'contributors()' for more information and
+'citation()' on how to cite R in publications.
 
-Type `demo()' for some demos, `help()' for on-line help, or
-`help.start()' for a HTML browser interface to help.
-Type `q()' to quit R.
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for a HTML browser interface to help.
+Type 'q()' to quit R.
 
 > #some random data
 > library(Icens)
-Warning message: 
-package `Icens' found more than once,
-using the one found in `/home/rgentlem/Software/Icens.Rcheck' in: .find.package(package, lib.loc, quiet = TRUE) 
 > 
-> intvlx_matrix(c(
+> intvlx <- matrix(c(
 + 0.8820387, 10.666764,
 + 15.2923703, 18.390665,
 + 10.0710104,
@@ -37,9 +35,9 @@ using the one found in `/home/rgentlem/Software/Icens.Rcheck' in: .find.package(
 + 0.2885009,
 + 11.463272,
 + 0.2885009,
-+ 11.463272),ncol=2,byrow=T)
++ 11.463272),ncol=2,byrow=TRUE)
 > 
-> intvly_matrix(c(
+> intvly <- matrix(c(
 + 8.431484, 11.324923,
 + 9.6,
 + 18.739108,
@@ -56,7 +54,7 @@ using the one found in `/home/rgentlem/Software/Icens.Rcheck' in: .find.package(
 + 14.717762,
 + 22.361883,
 + 16.983453, 20.541734,
-+ 7.918273, 10.),ncol=2,byrow=T)
++ 7.918273, 10.),ncol=2,byrow=TRUE)
 > 
 > #find the cliques
 > BVcliques(intvlx,intvly)
@@ -130,7 +128,7 @@ using the one found in `/home/rgentlem/Software/Icens.Rcheck' in: .find.package(
 > 
 >    b$values
  [1]  9.019594e+00  4.947594e+00  2.889820e+00  2.000000e+00  2.000000e+00
- [6]  1.461001e+00  1.207129e+00  1.000000e+00  4.748624e-01 -4.988853e-30
+ [6]  1.461001e+00  1.207129e+00  1.000000e+00  4.748624e-01 -2.480201e-16
 >    # one zero eigenvalue
 > 
 >    ev1 <- b$vectors[,10]

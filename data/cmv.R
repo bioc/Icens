@@ -1,4 +1,4 @@
- bet<- matrix(scan("CMVdata"),nc=5,byr=TRUE)
+ bet<- matrix(scan("CMVdata", quiet=TRUE),nc=5,byr=TRUE)
 
  cmv1 <- rep(bet[,1],bet[,5])
  cmv2 <- rep(bet[,2],bet[,5])

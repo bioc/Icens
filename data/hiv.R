@@ -1,5 +1,5 @@
- Light<-matrix(scan("Lightly"),nc=5,byr=TRUE)
- Heavy<-matrix(scan("Heavy"),nc=5,byr=TRUE)
+ Light<-matrix(scan("Lightly", quiet=TRUE),nc=5,byr=TRUE)
+ Heavy<-matrix(scan("Heavy", quiet=TRUE),nc=5,byr=TRUE)
  hiv<-rbind(Light,Heavy)
  trt <- c(rep(1,nrow(Light)),rep(2,nrow(Heavy)))
  trt <-as.factor(trt)
