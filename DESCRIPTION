@@ -6,3 +6,5 @@ Title: NPMLE for Censored and Truncated Data
 Depends: survival
 License: GPL 2
 Maintainer: Robert Gentleman <rgentlem@hsph.harvard.edu>
+ReleaseLevel: devel
+
