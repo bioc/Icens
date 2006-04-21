@@ -7,4 +7,5 @@ Title: NPMLE for Censored and Truncated Data
 Depends: survival
 License: GPL 2
 Maintainer: Biocore Team <biocpkgs@lists.fhcrc.org>
+biocViews: Statistics, TimeCourse
 
