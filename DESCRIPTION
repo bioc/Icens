@@ -5,7 +5,7 @@ Description: Many functions for computing the NPMLE for censored and
         truncated data.
 Title: NPMLE for Censored and Truncated Data
 Depends: survival
-License: GPL 2
+License: The Artistic License, Version 2.0
 Maintainer: Biocore Team <biocpkgs@lists.fhcrc.org>
 biocViews: Statistics, TimeCourse
 
