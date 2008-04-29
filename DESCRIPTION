@@ -1,5 +1,5 @@
 Package: Icens
-Version: 1.11.1
+Version: 1.12.0
 Author: R. Gentleman and Alain Vandal .
 Description: Many functions for computing the NPMLE for censored and
         truncated data.
