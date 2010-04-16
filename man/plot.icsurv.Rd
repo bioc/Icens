@@ -14,18 +14,18 @@ ltybnds=2, ...)
   \item{x}{ The estimate of the NPMLE. }
   \item{type}{ Three options, "eq" for equivalence call, "gw" for the
     Groeneboom-Wellner estimate, and "lc" for the left-continuous estimate. }
-  \item{surv}{ ~~Describe \code{surv} here~~ }
-  \item{bounds}{ ~~Describe \code{bounds} here~~ }
-  \item{shade}{ ~~Describe \code{shade} here~~ }
-  \item{density}{ ~~Describe \code{density} here~~ }
-  \item{angle}{ ~~Describe \code{angle} here~~ }
-  \item{lty}{ ~~Describe \code{lty} here~~ }
-  \item{new}{ ~~Describe \code{new} here~~ }
-  \item{xlab}{ ~~Describe \code{xlab} here~~ }
-  \item{ylab}{ ~~Describe \code{ylab} here~~ }
-  \item{main}{ ~~Describe \code{main} here~~ }
-  \item{ltybnds}{ ~~Describe \code{ltybnds} here~~ }
-  \item{\dots}{ ~~Describe \code{\dots} here~~ }
+  \item{surv}{ ... } %%FIXME
+  \item{bounds}{ ... } %% FIXME
+  \item{shade}{ ... } %% FIXME
+  \item{density}{ ... } %% FIXME
+  \item{angle}{ ... } %%%FIXME
+  \item{lty}{ ...  } %% FIXME
+  \item{new}{ Boolean value }
+  \item{xlab}{ Label for the x axis }
+  \item{ylab}{ Label for the y axis }
+  \item{main}{ Title for the plot }
+  \item{ltybnds}{ ......} %%FIXME
+  \item{\dots}{ Additional arguments passed to the function}
 }
 
 \value{

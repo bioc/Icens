@@ -12,17 +12,17 @@ offsetx=0.02, offsety=0.03)
 \arguments{
   \item{int1}{ The intervals for the x dimension. }
   \item{int2}{ The intervals for the y dimension. }
-  \item{textp}{ }
+  \item{textp}{... } %% FIXME
   \item{showmac}{ Boolean, if true then the maximal cliques are shown in
   a different colour? }
-  \item{showsupp}{  }
-  \item{showmp}{ }
-  \item{cliques}{  }
-  \item{macprod}{  }
-  \item{density}{  }
-  \item{col}{  }
-  \item{offsetx}{  }
-  \item{offsety}{  }
+  \item{showsupp}{ ... }
+  \item{showmp}{... }
+  \item{cliques}{...  }
+  \item{macprod}{ ... }
+  \item{density}{...  }
+  \item{col}{...  }
+  \item{offsetx}{...  }
+  \item{offsety}{ ... }
 }
 
 \value{
