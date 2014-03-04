@@ -1,11 +1,12 @@
 Package: Icens
 Title: NPMLE for Censored and Truncated Data
 Description: Many functions for computing the NPMLE for censored and
-    truncated data.
-Version: 1.35.0
+        truncated data.
+Version: 1.35.1
 Author: R. Gentleman and Alain Vandal
-Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
+Maintainer: Bioconductor Package Maintainer
+        <maintainer@bioconductor.org>
 Depends: survival
 Imports: graphics
 License: Artistic-2.0
-biocViews: Bioinformatics, Infrastructure
+biocViews: Infrastructure
