@@ -1,4 +1,5 @@
- bet<- matrix(scan(system.file("extdata", "CMVdata", package="Icens"), quiet=TRUE),nc=5,byr=TRUE)
+# bet<- matrix(scan(system.file("extdata", "CMVdata", package="Icens"), quiet=TRUE),nc=5,byr=TRUE)
+ bet = read.delim(system.file("extdata", "CMVdata", package="Icens"), sep=" ", h=FALSE) # 2023
 
  cmv1 <- rep(bet[,1],bet[,5])
  cmv2 <- rep(bet[,2],bet[,5])
